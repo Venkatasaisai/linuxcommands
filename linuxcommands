@@ -1,0 +1,44 @@
+1. Save output to a file (>)
+ls > files.txt
+
+This saves the output of ls into files.txt.
+
+Example:
+
+pwd > location.txt
+2. Append output to a file (>>)
+ls >> files.txt
+
+Adds output to the end of the file without removing existing content.
+
+3. Save Linux commands you typed
+history > mycommands.txt
+
+This creates a file containing all commands from your terminal history.
+
+4. Create a file containing Linux commands manually
+vi linux_commands.txt
+
+Press i and type:
+
+pwd - show current directory
+ls - list files
+cd - change directory
+mkdir - create directory
+rm - remove file
+cp - copy files
+mv - move/rename files
+
+Save and exit:
+
+Esc
+:wq
+5. Save command output and view it
+uname -r > kernel_version.txt
+cat kernel_version.txt
+Check file contents
+cat filename.txt
+
+Example:
+
+cat mycommands.txt
