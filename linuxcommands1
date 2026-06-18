@@ -17,4 +17,4 @@ git merge <branch>          # Merge branch changes
 git push                    # Upload changes to remote repository
 git stash                   # Temporarily save uncommitted changes
 git stash pop               # Restore stashed changes
-git remote -v              # Show remote repository URLs
+git remote -v              # Show remote repository URL  is
